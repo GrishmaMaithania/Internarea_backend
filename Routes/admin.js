@@ -3,7 +3,7 @@ const router=express.Router();
 const adminUsername='admin'
 const adminPassword='Grishma0605'
 
-//For admin login
+
 router.post("/adminLogin",(req,res)=>{
     const {username,password}=req.body
     if (username===adminUsername||password===adminPassword){
